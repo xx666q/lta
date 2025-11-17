@@ -1,0 +1,90 @@
+
+
+.pageWrapper {
+  background: linear-gradient(135deg, #FAE9DB 0%, #F48224 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glassCard {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(31, 38, 135, 0.2);
+}
+
+.tabActive {
+  background: rgba(244, 130, 36, 0.2);
+  color: #F48224;
+  border-bottom: 2px solid #F48224;
+}
+
+.tabInactive {
+  background: transparent;
+  color: #718096;
+}
+
+.formInputFocus:focus {
+  outline: none;
+  border-color: #F48224;
+  box-shadow: 0 0 0 2px rgba(244, 130, 36, 0.2);
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, #F48224 0%, #624731 100%);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(244, 130, 36, 0.3);
+}
+
+.btnSecondary {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #2D3748;
+  transition: all 0.3s ease;
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.socialBtn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.socialBtn:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+.errorMessage {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.successMessage {
+  color: #38a169;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+

@@ -1,0 +1,73 @@
+
+
+.pageWrapper {
+  background: linear-gradient(135deg, #FAE9DB 0%, #F48224 100%);
+  min-height: 100vh;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glassCard {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(31, 38, 135, 0.2);
+}
+
+.glassNav {
+  background: rgba(250, 233, 219, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glassSidebar {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menuItemActive {
+  background: rgba(244, 130, 36, 0.2);
+  border-left: 3px solid #F48224;
+  color: #F48224;
+}
+
+.menuItem:hover {
+  background: rgba(244, 130, 36, 0.1);
+  color: #F48224;
+}
+
+.tableRow:hover {
+  background: rgba(244, 130, 36, 0.05);
+}
+
+.orderCard {
+  transition: all 0.3s ease;
+}
+
+.orderCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px 0 rgba(31, 38, 135, 0.3);
+}
+
+.filterActive {
+  background: rgba(244, 130, 36, 0.2);
+  color: #F48224;
+  border-color: #F48224;
+}
+
+.modalOverlay {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+

@@ -1,0 +1,127 @@
+
+
+.pageWrapper {
+  background: linear-gradient(135deg, #FAE9DB 0%, #F48224 100%);
+  min-height: 100vh;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glassCard {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(31, 38, 135, 0.2);
+}
+
+.glassNav {
+  background: rgba(250, 233, 219, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glassSidebar {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menuItemActive {
+  background: rgba(244, 130, 36, 0.2);
+  border-left: 3px solid #F48224;
+  color: #F48224;
+}
+
+.menuItem:hover {
+  background: rgba(244, 130, 36, 0.1);
+  color: #F48224;
+}
+
+.calendarDay {
+  transition: all 0.3s ease;
+}
+
+.calendarDay:hover {
+  background: rgba(244, 130, 36, 0.1);
+  transform: scale(1.05);
+}
+
+.calendarDay.hasOrders {
+  background: rgba(244, 130, 36, 0.2);
+  color: #F48224;
+  font-weight: 600;
+}
+
+.calendarDay.selected {
+  background: #F48224;
+  color: white;
+  transform: scale(1.1);
+}
+
+.tableRow:hover {
+  background: rgba(244, 130, 36, 0.05);
+}
+
+.statusBadge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.statusPending {
+  background: rgba(244, 130, 36, 0.2);
+  color: #F48224;
+}
+
+.statusAccepted {
+  background: rgba(98, 71, 49, 0.2);
+  color: #624731;
+}
+
+.statusActive {
+  background: rgba(52, 199, 89, 0.2);
+  color: #34C759;
+}
+
+.statusCompleted {
+  background: rgba(50, 138, 241, 0.2);
+  color: #328AF1;
+}
+
+.statusCancelled {
+  background: rgba(239, 68, 68, 0.2);
+  color: #EF4444;
+}
+
+.filterActive {
+  background: #F48224;
+  color: white;
+}
+
+.filterInactive {
+  background: rgba(255, 255, 255, 0.2);
+  color: #4A5568;
+}
+
+.modalOverlay {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.modalContent {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+

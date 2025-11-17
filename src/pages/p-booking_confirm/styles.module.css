@@ -1,0 +1,63 @@
+
+
+.pageWrapper {
+  background: linear-gradient(135deg, #FAE9DB 0%, #F48224 100%);
+  min-height: 100vh;
+}
+
+.glassEffect {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glassCard {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px 0 rgba(31, 38, 135, 0.2);
+}
+
+.glassNav {
+  background: rgba(250, 233, 219, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.modalOverlay {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.modalContent {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.paymentOption {
+  transition: all 0.3s ease;
+}
+
+.paymentOption:hover {
+  background: rgba(244, 130, 36, 0.1);
+}
+
+.paymentOptionSelected {
+  background: rgba(244, 130, 36, 0.2);
+  border-color: #F48224;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #F48224;
+  box-shadow: 0 0 0 3px rgba(244, 130, 36, 0.1);
+}
+
