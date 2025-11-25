@@ -9,7 +9,7 @@ interface Props {
   icon: string;
   colorClass: string;
 }
-
+ 
 const StatCard: React.FC<Props> = ({
   title,
   value,
