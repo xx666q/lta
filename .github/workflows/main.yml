@@ -11,5 +11,5 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      - run: npm run build
+      - run: npm install
       - run: npm run build
